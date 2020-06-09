@@ -1,0 +1,17 @@
+body /*definindo tamamnho e estilo da fonte do body */
+{
+    font: 20px arial;
+}
+.navbar /*definindo cor de fundo da barra de navegação */
+{
+background-color:#0A8A6F;
+}
+.quem-somos /*definindo cor de fundo da classe "quem-somos" presente em todas as div */
+{
+background-color: #C6E1DB;
+}
+.margin /*definindo espaçamento através da classe criada "margin" */
+{
+padding: 50px;
+padding-bottom: 50px;
+}

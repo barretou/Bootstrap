@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--adicionando codificação do português-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap construct</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"><!--linkando com o bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/style.css"><!--linkando com uma folha de estilização própria-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light"><!--montando menu navegador-->
+        <a class="navbar-brand" href="#">
+            <img src="img/logo1.jpeg" width="120" height="70"><!--adicionando uma logo ao menu-->
+        </a>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item"><!--listando abas do menu-->
+                <a class="nav-link" href="#Quem somos">Quem somos <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#parceiros">Parceiros <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#serviços">Serviços <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#duvidas">Dúvidas <span class="sr-only">(current)</span>
+                </a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="Quem somos"><!--sessão quem somos e estilização da div,adição de uma imagem-->
+        <div class="container-fluid quem-somos text-center margin">
+            <h3>Quem Somos</h3>
+            <img src="img/web1.jpg" class="rounded-circle" width="400px" height="400px">
+            <h3>Somos um time comprometido com seu sucesso</h3>
+        </div>
+    </section>
+       <selection><!--dividindo uma row em 3 para a adição das demais sessões-->
+        <div class="container-fluid quem-somos text-center margin">
+            <div class="row">               
+                <div class="col-sm" id="parceiros">
+                    <h3>Parceiros</h3><!--aqui especificamente se linka a imagem com o github do desenvolvedor-->
+                    <a href="https://github.com/barretou?tab=repositories" target="blank">
+                        <img  src="img/web2.jpg" class="rounded-circle" width="200px" height="200px">
+                    </a>
+                    <h3>Parceiros de alto grau que contribuem com nossos serviços, conheça nosso Desenvolvedor.</h3>
+                </div>             
+                
+                <div class="col-sm" id="serviços">
+                    <h3>Serviços</h3>
+                    <img  src="img/web3.jpg" class="rounded-circle" width="200px" height="200px">
+                    <h3>Venha conhecer todos os serviços oferecidos e veja qual o mais adequado para seu negócio.</h3>
+                </div>                
+                
+                <div class="col-lg" id="duvidas">
+                    <h3>Dúvidas</h3>
+                    <img  src="img/web4.jpg" class="rounded-circle" width="200px" height="200px">
+                    <h3>Qualquer dúvida, contacte-nos pelo enderço:</h3>
+                    <a href="mailto:gsbarreto95@gmail.com">gsbarreto95</a>
+                </div>                
+               </div>
+            </div>
+          </div>
+    </selection>
+
+
+</body>
+</html>
